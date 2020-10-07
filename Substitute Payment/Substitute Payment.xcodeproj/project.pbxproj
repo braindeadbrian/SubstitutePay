@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58ED2B05203F072000F014B7 /* Admin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED2B04203F072000F014B7 /* Admin.swift */; };
+		6F79615E2003BFB500330E33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F79615D2003BFB500330E33 /* AppDelegate.swift */; };
+		6F7961632003BFB500330E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F7961612003BFB500330E33 /* Main.storyboard */; };
+		6F7961652003BFB500330E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7961642003BFB500330E33 /* Assets.xcassets */; };
+		6F7961682003BFB500330E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F7961662003BFB500330E33 /* LaunchScreen.storyboard */; };
+		6F7961732003BFB500330E33 /* Substitute_PaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7961722003BFB500330E33 /* Substitute_PaymentTests.swift */; };
+		6F79617E2003BFB500330E33 /* Substitute_PaymentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F79617D2003BFB500330E33 /* Substitute_PaymentUITests.swift */; };
+		8BE9532E2006548F0088624E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9532D2006548F0088624E /* User.swift */; };
+		9261EB874F9516F311C5DC64 /* Pods_Substitute_Payment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31865A3212F3D6840D9C85E /* Pods_Substitute_Payment.framework */; };
+		96B2987197FD1FCAC05CC4EF /* Pods_Substitute_PaymentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923F0C9EE24B16DEE9B3CF59 /* Pods_Substitute_PaymentUITests.framework */; };
+		A50F9BD5CE9C4D87B5381331 /* Pods_Substitute_PaymentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94348979A21C97E3023BB917 /* Pods_Substitute_PaymentTests.framework */; };
+		C36D2DD42028AD5000E0FE37 /* SubDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D2DD32028AD5000E0FE37 /* SubDatabase.swift */; };
+		C3A22C30202FEEB600BA398A /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A22C2F202FEEB600BA398A /* Form.swift */; };
+		C3A22C32202FF58E00BA398A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3A22C31202FF58E00BA398A /* GoogleService-Info.plist */; };
+		C3A22C34203376A100BA398A /* FormFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A22C33203376A100BA398A /* FormFilter.swift */; };
+		C58494842020F3D800E47DAD /* dashBoardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58494832020F3D800E47DAD /* dashBoardTableViewController.swift */; };
+		C5D8C1DA20052D7800E05F26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8C1D920052D7800E05F26 /* ViewController.swift */; };
+		C5D8C1E62005308100E05F26 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8C1E52005308100E05F26 /* settingsViewController.swift */; };
+		C5D8C1EA200530CE00E05F26 /* payeeFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8C1E9200530CE00E05F26 /* payeeFormViewController.swift */; };
+		C5D8C1EC200530E600E05F26 /* adminFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8C1EB200530E600E05F26 /* adminFormViewController.swift */; };
+		C5E986472028A680008E5A61 /* businessman@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E986422028A67F008E5A61 /* businessman@3x.png */; };
+		C5E986482028A680008E5A61 /* key@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E986432028A67F008E5A61 /* key@3x.png */; };
+		C5E986492028A680008E5A61 /* info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E986442028A67F008E5A61 /* info@3x.png */; };
+		C5E9864A2028A680008E5A61 /* compass@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E986452028A67F008E5A61 /* compass@3x.png */; };
+		C5E9864B2028A680008E5A61 /* file@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E986462028A680008E5A61 /* file@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F79616F2003BFB500330E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F7961522003BFB500330E33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F7961592003BFB500330E33;
+			remoteInfo = "Substitute Payment";
+		};
+		6F79617A2003BFB500330E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F7961522003BFB500330E33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F7961592003BFB500330E33;
+			remoteInfo = "Substitute Payment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		120156DD8268DE324105332C /* Pods-Substitute Payment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Substitute Payment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Substitute Payment/Pods-Substitute Payment.debug.xcconfig"; sourceTree = "<group>"; };
+		22972D7983BEAB728DF524D5 /* Pods-Substitute PaymentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Substitute PaymentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Substitute PaymentUITests/Pods-Substitute PaymentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26425A49E17261021DCC582B /* Pods-Substitute PaymentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Substitute PaymentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Substitute PaymentTests/Pods-Substitute PaymentTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F314252D58168DC07541B04 /* Pods-Substitute Payment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Substitute Payment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Substitute Payment/Pods-Substitute Payment.release.xcconfig"; sourceTree = "<group>"; };
+		58ED2B04203F072000F014B7 /* Admin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Admin.swift; path = ../../../../Admin.swift; sourceTree = "<group>"; };
+		6F79615A2003BFB500330E33 /* Substitute Payment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Substitute Payment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F79615D2003BFB500330E33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F7961622003BFB500330E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F7961642003BFB500330E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F7961672003BFB500330E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F7961692003BFB500330E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F79616E2003BFB500330E33 /* Substitute PaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Substitute PaymentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7961722003BFB500330E33 /* Substitute_PaymentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substitute_PaymentTests.swift; sourceTree = "<group>"; };
+		6F7961742003BFB500330E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F7961792003BFB500330E33 /* Substitute PaymentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Substitute PaymentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F79617D2003BFB500330E33 /* Substitute_PaymentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substitute_PaymentUITests.swift; sourceTree = "<group>"; };
+		6F79617F2003BFB500330E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE9532D2006548F0088624E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		923F0C9EE24B16DEE9B3CF59 /* Pods_Substitute_PaymentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Substitute_PaymentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94348979A21C97E3023BB917 /* Pods_Substitute_PaymentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Substitute_PaymentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE88DDBAE932671F9A542647 /* Pods-Substitute PaymentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Substitute PaymentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Substitute PaymentUITests/Pods-Substitute PaymentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C36D2DD32028AD5000E0FE37 /* SubDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubDatabase.swift; sourceTree = "<group>"; };
+		C3A22C2F202FEEB600BA398A /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		C3A22C31202FF58E00BA398A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3A22C33203376A100BA398A /* FormFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFilter.swift; sourceTree = "<group>"; };
+		C58494832020F3D800E47DAD /* dashBoardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashBoardTableViewController.swift; sourceTree = "<group>"; };
+		C5D8C1D920052D7800E05F26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5D8C1E52005308100E05F26 /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		C5D8C1E9200530CE00E05F26 /* payeeFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payeeFormViewController.swift; sourceTree = "<group>"; };
+		C5D8C1EB200530E600E05F26 /* adminFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adminFormViewController.swift; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+		E31865A3212F3D6840D9C85E /* Pods_Substitute_Payment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Substitute_Payment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE61BDFFC15FF5A6035BDEB0 /* Pods-Substitute PaymentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Substitute PaymentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Substitute PaymentTests/Pods-Substitute PaymentTests.debug.xcconfig"; sourceTree = "<group>"; };
+=======
+		C5E986422028A67F008E5A61 /* businessman@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "businessman@3x.png"; path = "../../../../../.Trash/businessman@3x.png"; sourceTree = "<group>"; };
+		C5E986432028A67F008E5A61 /* key@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key@3x.png"; path = "../../../../../.Trash/key@3x.png"; sourceTree = "<group>"; };
+		C5E986442028A67F008E5A61 /* info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info@3x.png"; path = "../../../../../.Trash/info@3x.png"; sourceTree = "<group>"; };
+		C5E986452028A67F008E5A61 /* compass@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "compass@3x.png"; path = "../../../../../.Trash/compass@3x.png"; sourceTree = "<group>"; };
+		C5E986462028A680008E5A61 /* file@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "file@3x.png"; path = "../../../../../.Trash/file@3x.png"; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F7961572003BFB500330E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9261EB874F9516F311C5DC64 /* Pods_Substitute_Payment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F79616B2003BFB500330E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50F9BD5CE9C4D87B5381331 /* Pods_Substitute_PaymentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7961762003BFB500330E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B2987197FD1FCAC05CC4EF /* Pods_Substitute_PaymentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D94AE7BCF2248EF24ED8161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E31865A3212F3D6840D9C85E /* Pods_Substitute_Payment.framework */,
+				94348979A21C97E3023BB917 /* Pods_Substitute_PaymentTests.framework */,
+				923F0C9EE24B16DEE9B3CF59 /* Pods_Substitute_PaymentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F7961512003BFB500330E33 = {
+			isa = PBXGroup;
+			children = (
+				6F79615C2003BFB500330E33 /* Substitute Payment */,
+				6F7961712003BFB500330E33 /* Substitute PaymentTests */,
+				6F79617C2003BFB500330E33 /* Substitute PaymentUITests */,
+				6F79615B2003BFB500330E33 /* Products */,
+				85A65D5972501F776C3CFF66 /* Pods */,
+				5D94AE7BCF2248EF24ED8161 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F79615B2003BFB500330E33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F79615A2003BFB500330E33 /* Substitute Payment.app */,
+				6F79616E2003BFB500330E33 /* Substitute PaymentTests.xctest */,
+				6F7961792003BFB500330E33 /* Substitute PaymentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F79615C2003BFB500330E33 /* Substitute Payment */ = {
+			isa = PBXGroup;
+			children = (
+				C3A22C31202FF58E00BA398A /* GoogleService-Info.plist */,
+				6F7961692003BFB500330E33 /* Info.plist */,
+				C5D8C1DE20052EE800E05F26 /* Supporting Files */,
+				C5D8C1DD20052E9400E05F26 /* Models */,
+				C5D8C1DC20052E4F00E05F26 /* Layout */,
+				C5D8C1DB20052E2B00E05F26 /* Controllers */,
+			);
+			path = "Substitute Payment";
+			sourceTree = "<group>";
+		};
+		6F7961712003BFB500330E33 /* Substitute PaymentTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F7961722003BFB500330E33 /* Substitute_PaymentTests.swift */,
+				6F7961742003BFB500330E33 /* Info.plist */,
+			);
+			path = "Substitute PaymentTests";
+			sourceTree = "<group>";
+		};
+		6F79617C2003BFB500330E33 /* Substitute PaymentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F79617D2003BFB500330E33 /* Substitute_PaymentUITests.swift */,
+				6F79617F2003BFB500330E33 /* Info.plist */,
+			);
+			path = "Substitute PaymentUITests";
+			sourceTree = "<group>";
+		};
+		85A65D5972501F776C3CFF66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				120156DD8268DE324105332C /* Pods-Substitute Payment.debug.xcconfig */,
+				3F314252D58168DC07541B04 /* Pods-Substitute Payment.release.xcconfig */,
+				FE61BDFFC15FF5A6035BDEB0 /* Pods-Substitute PaymentTests.debug.xcconfig */,
+				26425A49E17261021DCC582B /* Pods-Substitute PaymentTests.release.xcconfig */,
+				22972D7983BEAB728DF524D5 /* Pods-Substitute PaymentUITests.debug.xcconfig */,
+				AE88DDBAE932671F9A542647 /* Pods-Substitute PaymentUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5D8C1DB20052E2B00E05F26 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8C1D920052D7800E05F26 /* ViewController.swift */,
+				C5D8C1E52005308100E05F26 /* settingsViewController.swift */,
+				C5D8C1E9200530CE00E05F26 /* payeeFormViewController.swift */,
+				C5D8C1EB200530E600E05F26 /* adminFormViewController.swift */,
+				C58494832020F3D800E47DAD /* dashBoardTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5D8C1DC20052E4F00E05F26 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				6F7961662003BFB500330E33 /* LaunchScreen.storyboard */,
+				6F7961612003BFB500330E33 /* Main.storyboard */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		C5D8C1DD20052E9400E05F26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58ED2B04203F072000F014B7 /* Admin.swift */,
+				6F79615D2003BFB500330E33 /* AppDelegate.swift */,
+				8BE9532D2006548F0088624E /* User.swift */,
+				C36D2DD32028AD5000E0FE37 /* SubDatabase.swift */,
+				C3A22C2F202FEEB600BA398A /* Form.swift */,
+				C3A22C33203376A100BA398A /* FormFilter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5D8C1DE20052EE800E05F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5E986422028A67F008E5A61 /* businessman@3x.png */,
+				C5E986452028A67F008E5A61 /* compass@3x.png */,
+				C5E986462028A680008E5A61 /* file@3x.png */,
+				C5E986442028A67F008E5A61 /* info@3x.png */,
+				C5E986432028A67F008E5A61 /* key@3x.png */,
+				6F7961642003BFB500330E33 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F7961592003BFB500330E33 /* Substitute Payment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F7961822003BFB500330E33 /* Build configuration list for PBXNativeTarget "Substitute Payment" */;
+			buildPhases = (
+				C362F12FEA5723C5FCD0C5CE /* [CP] Check Pods Manifest.lock */,
+				6F7961562003BFB500330E33 /* Sources */,
+				6F7961572003BFB500330E33 /* Frameworks */,
+				6F7961582003BFB500330E33 /* Resources */,
+				542207DBEAC94386BD6E07C7 /* [CP] Embed Pods Frameworks */,
+				68BA66207CB12DC5ED09C5C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Substitute Payment";
+			productName = "Substitute Payment";
+			productReference = 6F79615A2003BFB500330E33 /* Substitute Payment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F79616D2003BFB500330E33 /* Substitute PaymentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F7961852003BFB500330E33 /* Build configuration list for PBXNativeTarget "Substitute PaymentTests" */;
+			buildPhases = (
+				C14E9609ADF152B9F4673349 /* [CP] Check Pods Manifest.lock */,
+				6F79616A2003BFB500330E33 /* Sources */,
+				6F79616B2003BFB500330E33 /* Frameworks */,
+				6F79616C2003BFB500330E33 /* Resources */,
+				F647523E00356BA3DE3F894C /* [CP] Embed Pods Frameworks */,
+				8E489A52DF4004D0BC67535A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F7961702003BFB500330E33 /* PBXTargetDependency */,
+			);
+			name = "Substitute PaymentTests";
+			productName = "Substitute PaymentTests";
+			productReference = 6F79616E2003BFB500330E33 /* Substitute PaymentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F7961782003BFB500330E33 /* Substitute PaymentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F7961882003BFB500330E33 /* Build configuration list for PBXNativeTarget "Substitute PaymentUITests" */;
+			buildPhases = (
+				74C0BCCFB0F2DE3F57600331 /* [CP] Check Pods Manifest.lock */,
+				6F7961752003BFB500330E33 /* Sources */,
+				6F7961762003BFB500330E33 /* Frameworks */,
+				6F7961772003BFB500330E33 /* Resources */,
+				31227851DF861A348547A9EB /* [CP] Embed Pods Frameworks */,
+				1B93232E668663324E472979 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F79617B2003BFB500330E33 /* PBXTargetDependency */,
+			);
+			name = "Substitute PaymentUITests";
+			productName = "Substitute PaymentUITests";
+			productReference = 6F7961792003BFB500330E33 /* Substitute PaymentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F7961522003BFB500330E33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vedant Iyer";
+				TargetAttributes = {
+					6F7961592003BFB500330E33 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6F79616D2003BFB500330E33 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F7961592003BFB500330E33;
+					};
+					6F7961782003BFB500330E33 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F7961592003BFB500330E33;
+					};
+				};
+			};
+			buildConfigurationList = 6F7961552003BFB500330E33 /* Build configuration list for PBXProject "Substitute Payment" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F7961512003BFB500330E33;
+			productRefGroup = 6F79615B2003BFB500330E33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F7961592003BFB500330E33 /* Substitute Payment */,
+				6F79616D2003BFB500330E33 /* Substitute PaymentTests */,
+				6F7961782003BFB500330E33 /* Substitute PaymentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F7961582003BFB500330E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E986482028A680008E5A61 /* key@3x.png in Resources */,
+				C5E9864B2028A680008E5A61 /* file@3x.png in Resources */,
+				C5E986472028A680008E5A61 /* businessman@3x.png in Resources */,
+				6F7961682003BFB500330E33 /* LaunchScreen.storyboard in Resources */,
+<<<<<<< Updated upstream
+				C3A22C32202FF58E00BA398A /* GoogleService-Info.plist in Resources */,
+=======
+				C5E986492028A680008E5A61 /* info@3x.png in Resources */,
+				C5E9864A2028A680008E5A61 /* compass@3x.png in Resources */,
+>>>>>>> Stashed changes
+				6F7961652003BFB500330E33 /* Assets.xcassets in Resources */,
+				6F7961632003BFB500330E33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F79616C2003BFB500330E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7961772003BFB500330E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B93232E668663324E472979 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Substitute PaymentUITests/Pods-Substitute PaymentUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31227851DF861A348547A9EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Substitute PaymentUITests/Pods-Substitute PaymentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		542207DBEAC94386BD6E07C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Substitute Payment/Pods-Substitute Payment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Substitute Payment/Pods-Substitute Payment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68BA66207CB12DC5ED09C5C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Substitute Payment/Pods-Substitute Payment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C0BCCFB0F2DE3F57600331 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Substitute PaymentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E489A52DF4004D0BC67535A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Substitute PaymentTests/Pods-Substitute PaymentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C14E9609ADF152B9F4673349 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Substitute PaymentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C362F12FEA5723C5FCD0C5CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Substitute Payment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F647523E00356BA3DE3F894C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Substitute PaymentTests/Pods-Substitute PaymentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F7961562003BFB500330E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D8C1DA20052D7800E05F26 /* ViewController.swift in Sources */,
+				C3A22C34203376A100BA398A /* FormFilter.swift in Sources */,
+				C5D8C1EC200530E600E05F26 /* adminFormViewController.swift in Sources */,
+				6F79615E2003BFB500330E33 /* AppDelegate.swift in Sources */,
+				58ED2B05203F072000F014B7 /* Admin.swift in Sources */,
+				C36D2DD42028AD5000E0FE37 /* SubDatabase.swift in Sources */,
+				C5D8C1EA200530CE00E05F26 /* payeeFormViewController.swift in Sources */,
+				C3A22C30202FEEB600BA398A /* Form.swift in Sources */,
+				C58494842020F3D800E47DAD /* dashBoardTableViewController.swift in Sources */,
+				C5D8C1E62005308100E05F26 /* settingsViewController.swift in Sources */,
+				8BE9532E2006548F0088624E /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F79616A2003BFB500330E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7961732003BFB500330E33 /* Substitute_PaymentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7961752003BFB500330E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F79617E2003BFB500330E33 /* Substitute_PaymentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F7961702003BFB500330E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F7961592003BFB500330E33 /* Substitute Payment */;
+			targetProxy = 6F79616F2003BFB500330E33 /* PBXContainerItemProxy */;
+		};
+		6F79617B2003BFB500330E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F7961592003BFB500330E33 /* Substitute Payment */;
+			targetProxy = 6F79617A2003BFB500330E33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F7961612003BFB500330E33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F7961622003BFB500330E33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F7961662003BFB500330E33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F7961672003BFB500330E33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F7961802003BFB500330E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F7961812003BFB500330E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F7961832003BFB500330E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120156DD8268DE324105332C /* Pods-Substitute Payment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EQMRSL5VAE;
+				INFOPLIST_FILE = "Substitute Payment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Iyer.Substitute-Payment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F7961842003BFB500330E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F314252D58168DC07541B04 /* Pods-Substitute Payment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EQMRSL5VAE;
+				INFOPLIST_FILE = "Substitute Payment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Iyer.Substitute-Payment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F7961862003BFB500330E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE61BDFFC15FF5A6035BDEB0 /* Pods-Substitute PaymentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Substitute PaymentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Iyer.Substitute-PaymentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Substitute Payment.app/Substitute Payment";
+			};
+			name = Debug;
+		};
+		6F7961872003BFB500330E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26425A49E17261021DCC582B /* Pods-Substitute PaymentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Substitute PaymentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Iyer.Substitute-PaymentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Substitute Payment.app/Substitute Payment";
+			};
+			name = Release;
+		};
+		6F7961892003BFB500330E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22972D7983BEAB728DF524D5 /* Pods-Substitute PaymentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Substitute PaymentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Iyer.Substitute-PaymentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Substitute Payment";
+			};
+			name = Debug;
+		};
+		6F79618A2003BFB500330E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE88DDBAE932671F9A542647 /* Pods-Substitute PaymentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Substitute PaymentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Iyer.Substitute-PaymentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Substitute Payment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F7961552003BFB500330E33 /* Build configuration list for PBXProject "Substitute Payment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7961802003BFB500330E33 /* Debug */,
+				6F7961812003BFB500330E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F7961822003BFB500330E33 /* Build configuration list for PBXNativeTarget "Substitute Payment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7961832003BFB500330E33 /* Debug */,
+				6F7961842003BFB500330E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F7961852003BFB500330E33 /* Build configuration list for PBXNativeTarget "Substitute PaymentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7961862003BFB500330E33 /* Debug */,
+				6F7961872003BFB500330E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F7961882003BFB500330E33 /* Build configuration list for PBXNativeTarget "Substitute PaymentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7961892003BFB500330E33 /* Debug */,
+				6F79618A2003BFB500330E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F7961522003BFB500330E33 /* Project object */;
+}
